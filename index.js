@@ -4,7 +4,9 @@ var express = require('express'),
 
 express()
 	// enable CORS
-	.use( cors() )
+	.use( cors({
+		maxAge: 1728000
+	}) )
 	// proxy straight to Peach
 	.use(proxy('https://v1.peachapi.com', { changeOrigin:true }))
 	// accept requests on PORT
