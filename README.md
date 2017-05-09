@@ -1,5 +1,7 @@
 # [Nectarine] API Proxy
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/developit/nectarine-api-proxy.svg)](https://greenkeeper.io/)
+
 > A ridiculously simple off-the-shelf CORS proxy for the Peach API.
 
 You won't find endpoints or anything here, this is just a proxy that allows access to Peach via CORS.
